@@ -1155,7 +1155,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     font-family: "montserrat-medium", sans-serif;
     font-size: 7.8rem;
     line-height: 1.25;
-    color: #000000;
+    color: #fffefe;
     margin-top: 0;
 }
 
@@ -1164,11 +1164,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .display-2 {
-    font-family: "montserrat-medium", sans-serif;
-    font-size: 2rem;
-    line-height: 1.255;
-    color: #ece5e5;
-    margin-top: 0;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 30px;
+   text-align: center;
+   color: rgb(246, 246, 246);
+   text-transform: lowercase;
 }
 
 .display-2--light {
@@ -1181,17 +1181,16 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .subhead {
     font-family: "montserrat-bold", sans-serif;
-    font-size: 5rem;
+    font-size: 6rem;
     line-height: 1.333;
     text-transform: uppercase;
     letter-spacing: .25rem;
     color: #00eec6;
-    margin-top: 0;
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .subhead--dark {
-    color: #000000;
+    color: #05ac95;
 }
 
 
@@ -1731,7 +1730,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .home-content h3 {
     font-family: "montserrat-medium", sans-serif;
-    font-size: 6rem;
+    font-size: 5rem;
     color: rgba(7, 243, 58, 0.993);
     text-transform: uppercase;
     letter-spacing: .3rem;
@@ -1741,12 +1740,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     margin-left: 6px;
 }
 
-.home-content h1 {
-    font-family: "montserrat-medium", sans-serif;
-    font-size: 3rem;
-    line-height: 1.333;
+.home-content p{
+    font-family: montserrat, sans-serif;
     margin-top: 0;
     color: #FFFFFF;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .home-content__main {
@@ -2139,8 +2138,8 @@ html.no-csstransitions .home-content__main {
 .s-about {
     padding-top: 16.2rem;
     padding-bottom: 9rem;
-    background-color: #39b54a;
-    color: #010507;
+    background-color: #55885573;
+    color: #22759e;
     position: relative;
 }
 
@@ -2149,10 +2148,14 @@ html.no-csstransitions .home-content__main {
 }
 
 .about-desc {
-    font-size: 2.4rem;
+    font-size: 2rem;
     line-height: 1.75;
-    text-align: left;
+    text-align: justify;
+    text-justify: inter-word;
     max-width: 1024px;
+    font-family: montserrat, sans-serif;
+    margin-top: 0;
+    color: #FFFFFF;
 }
 
 
@@ -2307,7 +2310,7 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-services {
-    background-image:linear-gradient( rgba(8, 112, 105, 0.897), hsla(148, 92%, 26%, 0.794)), url(../images/whatWeDo.jpg);
+    background-image:linear-gradient( rgb(1, 2, 2), hsla(0, 0%, 0%, 0.685)), url(../images/whatWeDo.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -2323,14 +2326,14 @@ html.no-csstransitions .home-content__main {
  * ## services list
  * ------------------------------------------------------------------- */
 .services-list {
-    margin-top: 6rem;
+    margin-top: 3rem;
 }
 
 .services-list .service-item {
     margin-bottom: .9rem;
 }
 
-.services-list .service-item h3 {
+.services-list .service-item p {
     margin-top: 0;
 }
 
@@ -2371,7 +2374,7 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width: 1000px) {
-    .services-list h3 {
+    .services-list p {
         font-size: 2.5rem;
     }
     .services-list .service-item:nth-child(2n+1) {
@@ -2392,7 +2395,7 @@ html.no-csstransitions .home-content__main {
         padding-right: 15px;
         padding-left: 15px;
     }
-    .services-list h3 {
+    .services-list p {
         font-size: 3rem;
     }
     .services-list .service-text {
@@ -2413,7 +2416,7 @@ html.no-csstransitions .home-content__main {
         padding-right: 10px;
         padding-left: 10px;
     }
-    .services-list h3 {
+    .services-list p{
         font-size: 2.5rem;
     }
 }
@@ -2423,7 +2426,7 @@ html.no-csstransitions .home-content__main {
         padding-right: 0;
         padding-left: 0;
     }
-    .services-list h3 {
+    .services-list p {
         font-size: 2.5rem;
     }
 }
@@ -2442,29 +2445,32 @@ html.no-csstransitions .home-content__main {
 }
 
 .s-works .intro-wrap {
-    padding: 10rem 0 20.2rem;
     background: #01121b;
 }
 
 .works-content {
     max-width: 1160px;
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
 
 
 
 .container {
-    max-width: 1200px;
+    max-width: 100%;
     margin: auto;
     overflow: auto;
+    background-color: #01121b;
+    margin-bottom: 50px;
 }
 .gallery{
-    margin: 5px;
+    margin: 40px;
     border: 1px solid #ccc;
     border-radius: 5px;
     float: left;
-    width: 390px;
+    width: 400px;
+    
 }
+
 .gallery img{
     height: auto;
     transition: 
@@ -2487,8 +2493,8 @@ html.no-csstransitions .home-content__main {
  * works
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 800px) {
-    .item-folio__title, .item-folio__cat {
-        font-size: 1.3rem;
+    .container, .gallery {
+        font-size: 2rem;
     }
 }
 
@@ -2502,12 +2508,12 @@ html.no-csstransitions .home-content__main {
     .works-content {
         margin-top: -25.2rem;
     }
-    .masonry__brick {
+    .gallery {
         float: none;
-        width: 100%;
+        width: 250px;
     }
-    .item-folio__title, .item-folio__cat {
-        font-size: 1.4rem;
+    .container, .gallery {
+        font-size: 2.4rem;
     }
 }
 
