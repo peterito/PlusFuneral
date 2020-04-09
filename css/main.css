@@ -1164,11 +1164,13 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .display-2 {
-   font-family: 'Times New Roman', Times, serif;
-   font-size: 30px;
-   text-align: center;
+   font-size: 23px;
+   line-height: 30px;
+   text-justify: inter-word;
+   text-align: justify;
    color: rgb(246, 246, 246);
    text-transform: lowercase;
+   font-family: 'Times New Roman', Times, serif;
 }
 
 .display-2--light {
@@ -1176,7 +1178,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .subhead + .display-2 {
-    margin-top: .4rem;
+    margin-top: .1rem;
 }
 
 .subhead {
@@ -1224,7 +1226,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
         font-size: 3.3rem;
     }
     .subhead {
-        font-size: 1.5rem;
+        font-size: 3rem;
     }
 }
 
