@@ -1163,14 +1163,15 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     color: #FFFFFF;
 }
 
-.display-2 {
-   font-size: 23px;
-   line-height: 30px;
-   text-justify: inter-word;
-   text-align: justify;
-   color: rgb(246, 246, 246);
-   text-transform: lowercase;
-   font-family: 'Times New Roman', Times, serif;
+.subhead p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 20px;
+    color: #FFFFFF;
+    text-transform: none;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .display-2--light {
@@ -1204,7 +1205,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     .display-1 {
         font-size: 7.2rem;
     }
-    .display-2 {
+    .display-2 p{
         font-size: 4.4rem;
     }
 }
@@ -1213,7 +1214,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     .display-1 {
         font-size: 6.5rem;
     }
-    .display-2 {
+    .display-2 p{
         font-size: 4rem;
     }
 }
@@ -1222,7 +1223,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     .display-1 {
         font-size: 5rem;
     }
-    .display-2 {
+    .display-2 p{
         font-size: 3.3rem;
     }
     .subhead {
@@ -1234,7 +1235,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     .display-1 {
         font-size: 4.2rem;
     }
-    .display-2 {
+    .display-2 p{
         font-size: 3rem;
     }
 }
